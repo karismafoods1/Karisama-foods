@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karisma Foods - Let your hunger go</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8e1;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffd700;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 2rem;
+      background: #fff3cd;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #c59d00;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .product {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin-top: 0.5rem;
+      color: #c59d00;
+    }
+
+    .product p {
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f7e8a7;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Karisma Foods</h1>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <h1>Let your hunger go by Karisma Foods</h1>
+    <p>We are a small factory with a big dream — delivering delicious flavors across India.</p>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="masala.jpg" alt="Masala">
+      <h3>Masala</h3>
+      <p>₹10 per 100g</p>
+      <p>Spicy, aromatic, homemade blend</p>
+    </div>
+    <div class="product">
+      <img src="noodles.jpg" alt="Noodles">
+      <h3>Noodles</h3>
+      <p>₹90 per 10-pack</p>
+      <p>Quick-cook and tasty for the whole family</p>
+    </div>
+    <div class="product">
+      <img src="agar.jpg" alt="Agar Agar">
+      <h3>Agar Agar</h3>
+      <p>₹20 per packet</p>
+      <p>Perfect for desserts & jellies</p>
+    </div>
+    <div class="product">
+      <img src="vinegar.jpg" alt="Vinegar">
+      <h3>Vinegar</h3>
+      <p>₹20 per bottle</p>
+      <p>Clean, sharp, and perfect for cooking</p>
+    </div>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/919443745823" target="_blank">Chat on WhatsApp</a>
+
+  <footer id="contact">
+    &copy; 2025 Karisma Foods. All rights reserved.
+  </footer>
+</body>
+</html>
